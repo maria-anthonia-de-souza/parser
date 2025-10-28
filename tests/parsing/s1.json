@@ -1,0 +1,19 @@
+{
+  "name": "Pedro",
+  "age": 21,
+  "active": true,
+  "languages": ["Rust", "Python", "JavaScript"],
+  "projects": [
+    {
+      "name": "Parser",
+      "status": "completed",
+      "lines_of_code": 1200
+    },
+    {
+      "name": "WebApp",
+      "status": "in_progress",
+      "lines_of_code": 450
+    }
+  ],
+  "partner": null
+}
