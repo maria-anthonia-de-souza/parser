@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "profile": {
+        "age": 30,
+        "emails": ["alice@example.com", "alice.work@example.com"],
+        "preferences": {
+          "notifications": true,
+          "themes": ["dark", "light"],
+          "nested": {
+            "level1": {
+              "level2": {
+                "level3": {
+                  "level4": {
+                    "level5": "deep value",
+                    "empty_array": [],
+                    "empty_object": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "profile": {
+        "age": 25,
+        "emails": [],
+        "preferences": {
+          "notifications": false,
+          "themes": ["blue", "green"],
+          "nested": {
+            "level1": {
+              "level2": {
+                "level3": {
+                  "level4": {
+                    "level5": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project X",
+      "details": {
+        "status": "in_progress",
+        "tasks": [
+          {"task": "design", "completed": true},
+          {"task": "implementation", "completed": false},
+          {"task": "testing", "completed": false}
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "generated": "2025-10-28T12:00:00Z",
+    "version": 1,
+    "tags": ["test", "complex", "nested"]
+  }
+}

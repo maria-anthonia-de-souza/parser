@@ -1,7 +1,7 @@
 mod lexer;
 mod parser;
 
-use clap::Parser as ClapParser; // Rename to avoid conflict with your Parser struct
+use clap::Parser as ClapParser; 
 use lexer::Lexer;
 use parser::{Parser, Type};
 use std::fs;
